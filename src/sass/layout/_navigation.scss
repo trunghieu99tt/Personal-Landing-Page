@@ -1,0 +1,49 @@
+.navigation {
+	.logo {
+		$size: 8rem;
+		width: $size;
+		height: $size;
+		object-fit: cover;
+	}
+
+	.menu {
+		width: 50%;
+		display: flex;
+		margin-left: auto;
+		justify-content: space-around;
+		padding: 1rem;
+
+		&-item {
+			&__link {
+				&:hover {
+					text-decoration: none;
+				}
+
+				p {
+					transition: 0.4s;
+					position: relative;
+					padding-bottom: 1rem;
+
+					&::after {
+						position: absolute;
+						content: "";
+						bottom: 0;
+						left: 0;
+						width: 0;
+						height: 2px;
+						background: $orange-1;
+						transition: all 0.3s;
+					}
+
+					&:hover::after {
+						width: 100%;
+					}
+				}
+
+				&:hover p {
+					color: $orange-1;
+				}
+			}
+		}
+	}
+}

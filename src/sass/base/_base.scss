@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
 
 *,
 *::after,
@@ -6,6 +8,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: inherit;
+	scroll-behavior: smooth;
+	color: #fff;
 }
 
 html {
@@ -24,11 +28,18 @@ html {
 		font-size: 50%; // 1rem = 8px
 	}
 
-	@include respond(phone) {
-		font-size: 30%;
-	}
+	font-family: "Open Sans", sans-serif;
 }
 
 body {
 	box-sizing: border-box;
+	background: $background-1;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
 }
