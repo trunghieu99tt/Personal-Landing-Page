@@ -4,6 +4,7 @@ import "./css/main.css";
 
 import Navigation from "./layout/Navigation";
 import Banner from "./components/Banner";
+import WhyHireMe from "./components/WhyHireMe";
 
 export default class App extends Component {
 	render() {
@@ -11,6 +12,7 @@ export default class App extends Component {
 			<React.Fragment>
 				<Navigation />
 				<Banner />
+				<WhyHireMe />
 			</React.Fragment>
 		);
 	}

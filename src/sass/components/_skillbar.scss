@@ -1,0 +1,34 @@
+.skillbar {
+	margin-bottom: 2rem;
+
+	&-heading {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 1rem;
+		p {
+			font-size: 12px;
+			font-family: "Open Sans", sans-serif;
+		}
+	}
+
+	&__number {
+		color: $orange-1;
+	}
+
+	.progress-bar {
+		background-color: $background-1;
+		height: 5px;
+		border-radius: 999px;
+		position: relative;
+
+		&__inner {
+			position: absolute;
+			height: 100%;
+			content: "";
+			background: $orange-1;
+			top: 0;
+			left: 0;
+			border-radius: 999px;
+		}
+	}
+}

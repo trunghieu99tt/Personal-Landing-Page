@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 .margin-top-1 {
   margin-top: 1rem;
 }
@@ -220,7 +221,6 @@ h5 {
 
 h1 {
   font-size: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 
 h2 {
@@ -312,7 +312,7 @@ canvas {
 }
 
 .banner {
-  min-height: 80vh;
+  min-height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -357,5 +357,97 @@ canvas {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.hireme {
+  margin-top: 5rem;
+}
+
+.hireme .container {
+  background: #313552;
+  padding: 0;
+}
+
+.hireme__heading-container {
+  background: #2c304d;
+  text-align: center;
+}
+
+.hireme__heading {
+  background: #fec576;
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 2.5rem 5rem;
+  color: #000;
+}
+
+.hireme__content {
+  padding: 5rem;
+}
+
+.hireme__image {
+  width: 100%;
+  height: 100%;
+}
+
+.hireme__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0 9px;
+          box-shadow: 0 0 9px;
+}
+
+.hireme__title {
+  font-family: "Playfair Display", serif !important;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+
+.hireme__main {
+  padding: 0 4rem;
+}
+
+.skillbar {
+  margin-bottom: 2rem;
+}
+
+.skillbar-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.skillbar-heading p {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.skillbar__number {
+  color: #fcc675;
+}
+
+.skillbar .progress-bar {
+  background-color: #1f2235;
+  height: 5px;
+  border-radius: 999px;
+  position: relative;
+}
+
+.skillbar .progress-bar__inner {
+  position: absolute;
+  height: 100%;
+  content: "";
+  background: #fcc675;
+  top: 0;
+  left: 0;
+  border-radius: 999px;
 }
 /*# sourceMappingURL=main.css.map */
