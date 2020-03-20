@@ -1,0 +1,58 @@
+.timeline-card2 {
+	display: flex;
+	position: relative;
+	&__info {
+		position: relative;
+		text-align: right;
+		min-width: 15rem;
+		padding-right: 15px;
+		border-right: 1px solid #4d5368;
+		&::after {
+			width: 5px;
+			height: 5px;
+			background: $orange-1;
+			top: 0;
+			right: 0;
+			position: absolute;
+			content: "";
+			border-radius: 50%;
+			transform: translateX(50%);
+		}
+	}
+
+	&__session {
+		font-size: 1.8rem;
+		color: $orange-1;
+		font-weight: 400;
+	}
+	&__companyname {
+		color: #fff;
+		font-size: 14px;
+		font-weight: 400;
+		margin: 0 0 1rem;
+	}
+
+	&__content {
+		font-size: 1.8rem;
+		margin-bottom: 4rem;
+		color: $orange-1;
+		font-weight: 400;
+		padding-left: 1.5rem;
+	}
+
+	&__title {
+		font-size: 2rem;
+		font-weight: 400;
+		color: #fff;
+		font-family: playfair display, Sans-serif;
+	}
+
+	&__description {
+		width: 25.5rem;
+		font-size: 14px;
+		line-height: 2.6rem;
+		font-weight: 400;
+
+		@include truncateLine(3);
+	}
+}

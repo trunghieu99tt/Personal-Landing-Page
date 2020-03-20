@@ -1,0 +1,7 @@
+.grid {
+	display: grid !important;
+
+	&--2 {
+		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	}
+}

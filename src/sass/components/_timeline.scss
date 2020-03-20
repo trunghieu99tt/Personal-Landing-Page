@@ -1,0 +1,25 @@
+.timeline {
+	margin-top: 8rem;
+
+	&__heading {
+		margin-bottom: 5rem;
+	}
+
+	&__subtitle {
+		font-family: "Open Sans", sans-serif;
+		text-transform: uppercase;
+		color: $orange-1;
+	}
+
+	&__title {
+		font-family: "Playfair Display", serif !important;
+		font-size: 4rem;
+		margin-bottom: 2rem;
+		letter-spacing: 2px;
+	}
+
+	.slick-list {
+		height: 42rem !important;
+		overflow: hidden;
+	}
+}

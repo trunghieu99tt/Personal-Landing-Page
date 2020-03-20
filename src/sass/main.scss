@@ -8,7 +8,15 @@
 @import "base/utilities";
 
 @import "layout/navigation";
+@import "layout/grid";
 
 @import "components/banner";
-@import "components/hireme";
+@import "components/introduction";
 @import "components/skillbar";
+@import "components/aboutme";
+@import "components/timeline";
+
+@import "components/service-card";
+@import "components/award-card";
+@import "components/timelinecard1";
+@import "components/timelinecard2";

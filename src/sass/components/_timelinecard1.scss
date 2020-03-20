@@ -1,0 +1,36 @@
+.timeline-card1 {
+	padding: 3rem;
+	background: $background-2;
+	display: flex;
+	margin-bottom: 2rem;
+
+	&__image {
+		width: 7.2rem;
+		height: 7.2rem;
+		object-fit: cover;
+		margin: 0 5rem 3rem 0;
+		border-radius: 2%;
+	}
+
+	&__title {
+		font-family: open sans, Sans-serif;
+		font-size: 16px;
+		color: rgba(255, 255, 255, 0.65);
+		margin: 0 0 20px;
+		padding: 0;
+		transition-duration: 0.3s;
+
+		&:hover {
+			color: $orange-1;
+		}
+	}
+
+	&__companyName {
+		font-family: playfair display, Sans-serif;
+		font-size: 2.6rem;
+		font-weight: 700;
+		color: #fff;
+		margin: 0;
+		padding: 0;
+	}
+}
