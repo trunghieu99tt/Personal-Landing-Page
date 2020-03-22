@@ -73,7 +73,7 @@ export default class Contact extends Component {
 							</div>
 							<div className="text-wrapper">
 								<h2 className="section-heading">
-									Let's Be Friend
+									Let's Be Friends
 								</h2>
 							</div>
 						</div>
