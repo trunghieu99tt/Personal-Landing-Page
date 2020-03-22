@@ -6,7 +6,7 @@ export default class Awards extends Component {
 		const awardsData = [
 			{
 				title: "3rd place, potential prize in ACM/ICPC PTIT 2018",
-				image: require("../images/img4.png"),
+				image: require("../images/img4.jpg"),
 				url:
 					"https://www.facebook.com/ICPC.PTIT/photos/a.297414617001019/1690504441025356/?type=3&theater",
 				description:
