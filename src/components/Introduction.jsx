@@ -65,7 +65,7 @@ export default class Introduction extends Component {
 		];
 
 		return (
-			<section className="introduction">
+			<section className="introduction" id="introduction">
 				<div className="container">
 					<div className="introduction__heading">
 						{headers &&

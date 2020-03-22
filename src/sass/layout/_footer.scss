@@ -1,0 +1,39 @@
+.footer {
+	margin-top: 7rem;
+	padding: 5rem;
+	background: $background-2;
+
+	&-logo {
+		width: 8rem;
+	}
+
+	&-top {
+		margin-bottom: 5rem;
+	}
+
+	&-link {
+		font-size: 14px;
+		font-family: "Open Sans", sans-serif;
+		color: #fff;
+
+		&:hover {
+			color: $orange-1;
+		}
+		&-heading {
+			font-size: 4rem;
+		}
+
+		&-items {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 3rem;
+		}
+	}
+
+	&-copy-right {
+		color: rgb(184, 179, 168);
+		font-size: 14px;
+		line-height: 14px;
+		font-family: "Open Sans", sans-serif;
+	}
+}

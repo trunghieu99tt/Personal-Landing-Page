@@ -6,6 +6,9 @@ import Navigation from "./layout/Navigation";
 import Banner from "./components/Banner";
 import Introduction from "./components/Introduction";
 import TimeLine from "./components/TimeLine";
+import MyProjects from "./components/MyProjects";
+import Contact from "./components/Contact";
+import Footer from "./layout/Footer";
 
 export default class App extends Component {
 	render() {
@@ -15,6 +18,9 @@ export default class App extends Component {
 				<Banner />
 				<Introduction />
 				<TimeLine />
+				<MyProjects />
+				<Contact />
+				<Footer />
 			</React.Fragment>
 		);
 	}

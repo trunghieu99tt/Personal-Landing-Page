@@ -1,0 +1,28 @@
+.contact-card {
+	padding: 3rem;
+	border-radius: 5px;
+	border: 1px solid $orange-2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: $background-2;
+
+	&:hover {
+		background: rgba(180, 104, 0, 0.75);
+	}
+
+	&__title {
+		font-family: playfair display, Sans-serif;
+		font-size: 2.4rem;
+		font-weight: 700;
+		color: #fff;
+
+		&:hover {
+			color: #fff;
+		}
+	}
+
+	i {
+		font-size: 4rem;
+	}
+}

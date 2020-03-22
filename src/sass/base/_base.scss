@@ -44,3 +44,30 @@ li {
 a {
 	text-decoration: none !important;
 }
+
+.slick-arrow {
+	width: 4rem;
+	height: 4rem;
+	border-radius: 50%;
+	background: $orange-1;
+	color: transparent;
+	border: none;
+
+	margin-left: 24%;
+
+	&:focus {
+		outline: none !important;
+	}
+}
+
+.slick-prev {
+	clip-path: polygon(50% 0, 75% 50%, 100% 100%, 50% 50%, 0 100%);
+}
+
+.slick-next {
+	clip-path: polygon(50% 50%, 100% 0, 50% 100%, 0 0);
+}
+
+.section-heading-container {
+	margin-bottom: 5rem;
+}

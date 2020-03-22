@@ -9,14 +9,21 @@
 
 @import "layout/navigation";
 @import "layout/grid";
+@import "layout/footer";
 
 @import "components/banner";
 @import "components/introduction";
 @import "components/skillbar";
 @import "components/aboutme";
 @import "components/timeline";
+@import "components/my-projects";
+@import "components/contact";
 
 @import "components/service-card";
 @import "components/award-card";
 @import "components/timelinecard1";
 @import "components/timelinecard2";
+@import "components/project-card";
+@import "components/contact-card";
+
+@import "components/buttons";

@@ -4,4 +4,8 @@
 	&--2 {
 		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 	}
+
+	&--3 {
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	}
 }

@@ -8,10 +8,10 @@
 		padding-right: 15px;
 		border-right: 1px solid #4d5368;
 		&::after {
-			width: 5px;
-			height: 5px;
+			width: 1rem;
+			height: 1rem;
 			background: $orange-1;
-			top: 0;
+			top: 1px;
 			right: 0;
 			position: absolute;
 			content: "";
@@ -48,7 +48,6 @@
 	}
 
 	&__description {
-		width: 25.5rem;
 		font-size: 14px;
 		line-height: 2.6rem;
 		font-weight: 400;

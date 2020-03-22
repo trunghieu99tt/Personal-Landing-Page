@@ -3,7 +3,7 @@ import React from "react";
 const TimeLineCard1 = props => {
 	const { image, companyName, timeStart, timeEnd, title } = props;
 
-	return (
+	return image ? (
 		<div className="timeline-card1">
 			<div className="timeline-card1__image-container">
 				<img
@@ -28,7 +28,7 @@ const TimeLineCard1 = props => {
 				</div>
 			</div>
 		</div>
-	);
+	) : null;
 };
 
 export default TimeLineCard1;

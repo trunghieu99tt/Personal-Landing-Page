@@ -23,25 +23,50 @@ export default class TimeLine extends Component {
 				title: "Student",
 				description:
 					" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi porro rerum inventore consequatur minima quibusdam et voluptate corporis reprehenderit, ratione magnam sed enim, sunt quisquam! Atque corporis assumenda explicabo earum."
+			},
+			{
+				companyName: "CodeWar",
+				timeStart: "2019",
+				timeEnd: "2019",
+				title: "Participant",
+				description:
+					" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi porro rerum inventore consequatur minima quibusdam et voluptate corporis reprehenderit, ratione magnam sed enim, sunt quisquam! Atque corporis assumenda explicabo earum."
+			},
+			{
+				companyName: "ACM ICPC PTIT",
+				timeStart: "2018",
+				timeEnd: "2018",
+				title: "Participant",
+				description:
+					" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi porro rerum inventore consequatur minima quibusdam et voluptate corporis reprehenderit, ratione magnam sed enim, sunt quisquam! Atque corporis assumenda explicabo earum."
+			},
+
+			{
+				companyName: "ACM ICPC",
+				timeStart: "2019",
+				timeEnd: "2019",
+				title: "Specialist member",
+				description:
+					" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi porro rerum inventore consequatur minima quibusdam et voluptate corporis reprehenderit, ratione magnam sed enim, sunt quisquam! Atque corporis assumenda explicabo earum."
 			}
 		];
 
 		return (
-			<section className="timeline">
+			<section className="timeline" id="timeline">
 				<div className="container">
 					<div className="timeline__heading">
 						<div className="text-wrapper">
-							<h3 className="timeline__subtitle">
+							<h3 className="section-subheading">
 								My experience
 							</h3>
 						</div>
 						<div className="text-wrapper">
-							<h2 className="timeline__title">
-								Education, Experience And Timeline
+							<h2 className="section-heading">
+								Education, Experience And Events
 							</h2>
 						</div>
 					</div>
-					<div className="row">
+					<div className="row align-items-center">
 						<div className="col-lg-6">
 							<div className="timeline-cards">
 								{timelinecardData &&
