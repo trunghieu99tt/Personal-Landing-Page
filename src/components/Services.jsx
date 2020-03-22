@@ -5,28 +5,15 @@ export default class Services extends Component {
 	render() {
 		const cardsData = [
 			{
-				image: require("../images/img3.jpg"),
-				title: "Web Design",
-				description:
-					"Strategy develop customer in organisational knowledge and market perspectives that inform and provoke."
+				image: require("../images/convert.jpg"),
+				title: "Convert PSD To HTML,CSS,JS",
+				description: "Convert PSD file to HTML webpage"
 			},
 			{
 				image: require("../images/img3.jpg"),
-				title: "Web Design",
+				title: "Build web page",
 				description:
-					"Strategy develop customer in organisational knowledge and market perspectives that inform and provoke."
-			},
-			{
-				image: require("../images/img3.jpg"),
-				title: "Web Design",
-				description:
-					"Strategy develop customer in organisational knowledge and market perspectives that inform and provoke."
-			},
-			{
-				image: require("../images/img3.jpg"),
-				title: "Web Design",
-				description:
-					"Strategy develop customer in organisational knowledge and market perspectives that inform and provoke."
+					"Design, build a website from scartch with HTML, CSS, JS, ReactJS"
 			}
 		];
 

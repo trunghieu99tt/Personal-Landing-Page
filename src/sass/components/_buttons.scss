@@ -1,12 +1,16 @@
 .button {
-	padding: 2rem 4rem;
+	padding: 1rem 4rem;
 	border: 1px solid $orange-2;
 	font-size: 14px;
 	font-family: "Open Sans", sans-serif;
 	color: $orange-2;
 
+	@include respond(tab-port) {
+		margin-left: initial !important;
+	}
+
 	&:hover {
-		background: $orange-1;
+		background: $orange-3;
 		color: #fff;
 	}
 }

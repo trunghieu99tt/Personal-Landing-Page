@@ -3,12 +3,16 @@
 	padding: 5rem;
 	background: $background-2;
 
+	@include respond(phone) {
+		padding: 3rem;
+	}
+
 	&-logo {
 		width: 8rem;
 	}
 
 	&-top {
-		margin-bottom: 5rem;
+		grid-gap: 3rem 5rem;
 	}
 
 	&-link {
@@ -30,10 +34,20 @@
 		}
 	}
 
+	&-link-heading-container {
+		@include respond(phone) {
+			justify-content: flex-start !important;
+		}
+	}
+
 	&-copy-right {
 		color: rgb(184, 179, 168);
 		font-size: 14px;
 		line-height: 14px;
 		font-family: "Open Sans", sans-serif;
+		text-align: center;
+		@include respond(phone) {
+			text-align: left;
+		}
 	}
 }

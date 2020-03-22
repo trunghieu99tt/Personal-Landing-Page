@@ -52,8 +52,29 @@ a {
 	background: $orange-1;
 	color: transparent;
 	border: none;
-
 	margin-left: 24%;
+
+	@include respond(tab-land) {
+		margin-left: 26%;
+	}
+
+	@include respond(tab-port) {
+		margin-left: 15%;
+	}
+
+	@include respond(phone) {
+		margin-left: 31%;
+	}
+	@media (max-width: 415px) {
+		margin-left: 27%;
+	}
+	@media (max-width: 380px) {
+		margin-left: 31%;
+	}
+
+	@media (max-width: 325px) {
+		margin-left: 35%;
+	}
 
 	&:focus {
 		outline: none !important;

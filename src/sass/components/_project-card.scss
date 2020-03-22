@@ -10,6 +10,10 @@
 		height: 26rem;
 		border-radius: 10px 10px 0 0;
 		object-fit: cover;
+
+		@include respond(phone) {
+			width: 100%;
+		}
 	}
 
 	&__infor {

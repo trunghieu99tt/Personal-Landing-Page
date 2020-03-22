@@ -21,6 +21,12 @@
 		padding: 5rem;
 	}
 
+	&__image-container {
+		@include respond(phone) {
+			padding-left: 0;
+		}
+	}
+
 	&__image {
 		width: 100%;
 		height: 100%;
@@ -36,11 +42,23 @@
 	&__title {
 		font-family: "Playfair Display", serif !important;
 		font-size: 4rem;
-		margin-bottom: 2rem;
+		margin-bottom: 3rem;
 		letter-spacing: 2px;
+	}
+
+	&__description {
+		margin-bottom: 3.5rem;
+
+		@include respond(phone) {
+			margin-bottom: 5rem;
+		}
 	}
 
 	&__main {
 		padding: 0 4rem;
+
+		@include respond(phone) {
+			padding: 4rem 0;
+		}
 	}
 }

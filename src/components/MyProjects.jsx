@@ -1,16 +1,15 @@
 import React, { Component } from "react";
 import ProjectCard from "../components/Cards/ProjectCard";
 import Isotope from "isotope-layout";
-import Masonry from "react-masonry-component";
-import $ from "jquery";
+
 import { encodeString } from "./Helper";
+import { Waypoint } from "react-waypoint";
 
 export default class MyProjects extends Component {
 	state = {
 		myProjectsData: [
 			{
 				category: "Pet Project",
-				dataFilter: "pet-project",
 				name: "Todo App",
 				url: "https://trunghieu99tt.github.io/Todo-List-With-ReactJS/",
 				image: require("../images/todo.PNG")
@@ -128,6 +127,28 @@ export default class MyProjects extends Component {
 		});
 	}
 
+	activeNavbar = id => {
+		const navlinks = document.querySelectorAll(".menu-item__link");
+		navlinks.forEach(item => {
+			const href = item.getAttribute("href");
+			if (href === id) {
+				item.classList.add("active-link");
+			} else {
+				item.classList.remove("active-link");
+			}
+		});
+	};
+
+	unactiveNavbar = id => {
+		const navlinks = document.querySelectorAll(".menu-item__link");
+		navlinks.forEach(item => {
+			const href = item.getAttribute("href");
+			if (href === id) {
+				item.classList.remove("active-link");
+			}
+		});
+	};
+
 	render() {
 		const { myProjectsData } = this.state;
 
@@ -140,45 +161,52 @@ export default class MyProjects extends Component {
 		];
 
 		return (
-			<section className="my-projects margin-top-7" id = "projects">
-				<div className="container">
-					<div className="timeline__heading">
-						<div className="text-wrapper">
-							<h3 className="timeline__subtitle">My Projects</h3>
+			<Waypoint
+				onEnter={() => this.activeNavbar("#projects")}
+				onLeave={() => this.unactiveNavbar("#projects")}
+			>
+				<section className="my-projects margin-top-7" id="projects">
+					<div className="container">
+						<div className="section-heading-container">
+							<div className="text-wrapper">
+								<h3 className="section-subheading">
+									My Projects
+								</h3>
+							</div>
+							<div className="text-wrapper">
+								<h2 className="section-heading">
+									All Project I've made
+								</h2>
+							</div>
 						</div>
-						<div className="text-wrapper">
-							<h2 className="timeline__title">
-								All Project I've made
-							</h2>
+						<ul className="my-projects__filter-buttons">
+							<li
+								className="my-projects__filter-button filter-active"
+								data-filter="*"
+							>
+								All Category
+							</li>
+							{categories &&
+								categories.length > 0 &&
+								categories.map(item => (
+									<li
+										className="my-projects__filter-button"
+										data-filter={encodeString(item)}
+									>
+										{item}
+									</li>
+								))}
+						</ul>
+						<div className="my-projects-showcase">
+							{myProjectsData &&
+								myProjectsData.length > 0 &&
+								myProjectsData.map(item => {
+									return <ProjectCard {...item} />;
+								})}
 						</div>
 					</div>
-					<ul className="my-projects__filter-buttons">
-						<li
-							className="my-projects__filter-button filter-active"
-							data-filter="*"
-						>
-							All Category
-						</li>
-						{categories &&
-							categories.length > 0 &&
-							categories.map(item => (
-								<li
-									className="my-projects__filter-button"
-									data-filter={encodeString(item)}
-								>
-									{item}
-								</li>
-							))}
-					</ul>
-					<div className="my-projects-showcase">
-						{myProjectsData &&
-							myProjectsData.length > 0 &&
-							myProjectsData.map(item => {
-								return <ProjectCard {...item} />;
-							})}
-					</div>
-				</div>
-			</section>
+				</section>
+			</Waypoint>
 		);
 	}
 }

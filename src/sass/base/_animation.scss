@@ -6,3 +6,28 @@
 		transform: rotate(450deg);
 	}
 }
+
+@keyframes intro {
+	0% {
+		left: 0%;
+		right: 100%;
+	}
+	50% {
+		left: 0%;
+		right: 0%;
+	}
+	100% {
+		left: 100%;
+		right: 0%;
+	}
+}
+@keyframes show {
+	0%,
+	50% {
+		color: transparent;
+	}
+	50.00001%,
+	100% {
+		color: currentColor;
+	}
+}

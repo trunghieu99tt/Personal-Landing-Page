@@ -18,6 +18,12 @@
 		letter-spacing: 2px;
 	}
 
+	&-cards {
+		@include respond(tab-port) {
+			margin-bottom: 5rem;
+		}
+	}
+
 	.slick-list {
 		height: 42rem !important;
 		overflow: hidden;

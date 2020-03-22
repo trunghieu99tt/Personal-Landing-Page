@@ -29,7 +29,7 @@ export default class Footer extends Component {
 								className="footer-logo"
 							/>
 						</div>
-						<div className="d-flex align-items-center justify-content-center">
+						<div className="d-flex align-items-center justify-content-cente footer-link-heading-container">
 							<h1 className="footer-link-heading">Let's Talk</h1>
 						</div>
 
@@ -41,16 +41,12 @@ export default class Footer extends Component {
 								Let's chat
 							</a>
 						</div>
-					</div>
-					<div className="footer-bottom grid grid--3">
-						<div></div>
 						<div className="footer-link-container">
 							<ul className="footer-link-items">{footerLinks}</ul>
-							<p className="text-center footer-copy-right">
+							<p className="footer-copy-right">
 								Copyright By@Rikikudo - 2020
 							</p>
 						</div>
-						<div></div>
 					</div>
 				</div>
 			</footer>

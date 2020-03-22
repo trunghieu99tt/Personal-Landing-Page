@@ -19,6 +19,7 @@
 
 		&__title {
 			text-transform: uppercase;
+			font-weight: 500;
 		}
 
 		&:hover {
@@ -78,6 +79,6 @@
 		padding: 5rem;
 		gap: 5rem 2rem;
 		opacity: 1;
-		max-height: 100em;
+		max-height: 1000em;
 	}
 }

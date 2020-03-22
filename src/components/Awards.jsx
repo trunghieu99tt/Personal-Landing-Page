@@ -5,39 +5,20 @@ export default class Awards extends Component {
 	render() {
 		const awardsData = [
 			{
-				title: "Giải 3 cuộc thi lập trình chuẩn quốc tế ACM/ICPC PTIT",
+				title: "3rd place, potential prize in ACM/ICPC PTIT 2018",
 				image: require("../images/img4.png"),
 				url:
 					"https://www.facebook.com/ICPC.PTIT/photos/a.297414617001019/1690504441025356/?type=3&theater",
 				description:
-					"Thành viên team AHP Team giành giải 3 cuộc thi lập trình theo chuẩn quốc tế ACM/ICPC PTIT 2018"
+					"A team member contributes to the archivement of AHP Team in ACM/ICPC PTIT 2018, 3rd place and potential prize in the final round"
 			},
 			{
-				title:
-					"Giải tiềm năng cuộc thi lập trình chuẩn quốc tế ACM/ICPC PTIT",
-				image: require("../images/img4.png"),
-				url:
-					"https://www.facebook.com/ICPC.PTIT/photos/a.297414617001019/1690504424358691/?type=3&theater",
-				description:
-					"Thành viên team AHP Team giành giải 3 cuộc thi lập trình theo chuẩn quốc tế ACM/ICPC PTIT 2018"
-			},
-			{
-				title:
-					"Giải nhì toàn quốc vòng loại 1 cuộc thi lập trình CodeWar 2019",
+				title: "2nd place in CodeWar 2019 elimination round 1 and 2",
 				image: require("../images/img5.jpg"),
 				url:
 					"https://www.facebook.com/CodeLearnFanpage/photos/a.2272869376367541/2390248681296276/?type=3&theater",
 				description:
-					"Thành viên team Toang team giành giải nhì toàn quốc vòng loại 1 trong cuộc thi Codewar 2019 do FPT Software và hội Sinh viên Việt Nam đồng tổ chức."
-			},
-			{
-				title:
-					"Giải nhì toàn quốc vòng loại 2 cuộc thi lập trình CodeWar 2019",
-				image: require("../images/img5.jpg"),
-				url:
-					"https://www.facebook.com/CodeLearnFanpage/photos/a.2272869376367541/2390250014629476/?type=3&theater",
-				description:
-					"Thành viên team Toang team giành giải nhì toàn quốc vòng loại 2 trong cuộc thi Codewar 2019 do FPT Software và hội Sinh viên Việt Nam đồng tổ chức."
+					"A team member contributes to the archivement of Toang Team in Codewar 2019 organizated by FPT Software and Vietnamese Student Association"
 			}
 		];
 
