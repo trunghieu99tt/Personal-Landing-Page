@@ -5,7 +5,11 @@ const AwardCard = props => {
 	return (
 		<div className="award-card">
 			<div className="award-card__image-container">
-				<img src={image} alt={title} className="award-card__image" />
+				<img
+					src={image}
+					alt={title}
+					className="award-card__image lazyload"
+				/>
 			</div>
 
 			<div className="award-card__content">

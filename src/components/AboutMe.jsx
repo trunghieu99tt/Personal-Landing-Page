@@ -13,6 +13,7 @@ export default class AboutMe extends Component {
 							<img
 								src={require("../images/img2.jpg")}
 								alt="aboutme"
+								className="lazyload"
 							/>
 						</div>
 					</div>

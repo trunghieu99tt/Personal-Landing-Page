@@ -12,7 +12,11 @@ const ServiceCard = props => {
 				<div class="serviceCard__circle-wrapper">
 					<div class="serviceCard__circle"></div>
 				</div>
-				<img src={image} alt={title} className="serviceCard__image" />
+				<img
+					src={image}
+					alt={title}
+					className="serviceCard__image lazyload"
+				/>
 			</div>
 
 			<div className="serviceCard__content">

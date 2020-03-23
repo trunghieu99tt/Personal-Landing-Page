@@ -5,6 +5,8 @@ import Isotope from "isotope-layout";
 import { encodeString } from "./Helper";
 import { Waypoint } from "react-waypoint";
 
+// TODO: Change to carousel in small devides
+
 export default class MyProjects extends Component {
 	state = {
 		myProjectsData: [

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Particles from "react-particles-js";
 
 export default class Banner extends Component {
+	
 	render() {
 		return (
 			<section className="banner">
@@ -37,7 +38,7 @@ export default class Banner extends Component {
 							<img
 								src={require("../images/img1.jpg")}
 								alt="Me 1"
-								className="banner-image--1"
+								className="banner-image--1 lazyload"
 							/>
 						</div>
 					</div>
