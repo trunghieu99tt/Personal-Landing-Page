@@ -161,6 +161,8 @@ export default class MyProjects extends Component {
 					myProjectsData.map(item => item.category)
 			)
 		];
+		
+		
 
 		return (
 			<Waypoint
