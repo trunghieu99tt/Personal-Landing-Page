@@ -1,13 +1,14 @@
 import React from "react";
 import { encodeString } from "../Helper";
+import Image from '../Image';
 
 const ProjectCard = props => {
 	const { category, name, url, image } = props;
 	return (
 		<div className={`project-card ${encodeString(category)}`}>
 			<div className="project-card__image-container">
-				<img
-					src={image}
+				<Image
+					image={image}
 					alt={name}
 					className="project-card__image lazyload"
 				/>

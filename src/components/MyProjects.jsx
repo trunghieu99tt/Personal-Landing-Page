@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import ProjectCard from "../components/Cards/ProjectCard";
 import Isotope from "isotope-layout";
-
-import { encodeString } from "./Helper";
+import React, { Component } from "react";
 import { Waypoint } from "react-waypoint";
+import ProjectCard from "../components/Cards/ProjectCard";
+import { encodeString } from "./Helper";
+
 
 // TODO: Change to carousel in small devides
 
@@ -157,12 +157,12 @@ export default class MyProjects extends Component {
 		const categories = [
 			...new Set(
 				myProjectsData &&
-					myProjectsData.length > 0 &&
-					myProjectsData.map(item => item.category)
+				myProjectsData.length > 0 &&
+				myProjectsData.map(item => item.category)
 			)
 		];
-		
-		
+
+
 
 		return (
 			<Waypoint
