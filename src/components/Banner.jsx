@@ -1,8 +1,14 @@
+import Parallax from "parallax-js";
 import React, { Component } from "react";
+// import { Parallax } from "react-parallax";
 import Particles from "react-particles-js";
 
 export default class Banner extends Component {
-	
+	componentDidMount() {
+		var bg = document.querySelector(".banner-image--1");
+		var parallax = new Parallax(bg);
+		console.log("parallax", parallax);
+	}
 	render() {
 		return (
 			<section className="banner">
@@ -35,6 +41,11 @@ export default class Banner extends Component {
 							</div>
 						</div>
 						<div className="col-lg-6">
+							{/* <Parallax
+								bgImage={require("../images/img1.jpg")}
+								bgImageAlt="the cat"
+								bgClassName="banner-image--1 lazyload"
+							></Parallax> */}
 							<img
 								src={require("../images/img1.jpg")}
 								alt="Me 1"

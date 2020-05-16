@@ -11,6 +11,7 @@
 	box-sizing: inherit;
 	scroll-behavior: smooth;
 	color: #fff;
+	// cursor: none !important;
 }
 
 html {
@@ -91,4 +92,8 @@ a {
 
 .section-heading-container {
 	margin-bottom: 5rem;
+}
+
+.smooth-scroll-wrapper {
+	position: relative;
 }
