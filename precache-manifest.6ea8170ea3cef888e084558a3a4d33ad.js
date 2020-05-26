@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e2000abdb91c16a5404020b2be1b787d",
+    "revision": "0c313217aad7ccf1c38af93bf611e953",
     "url": "/index.html"
   },
   {
-    "revision": "bb65865c0aa537b431ac",
+    "revision": "0427d7b2793a9e360181",
     "url": "/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "a719238d697fe98a3a87",
+    "revision": "51376d9588b778052a8d",
     "url": "/static/css/main.bbb4c3fa.chunk.css"
   },
   {
-    "revision": "bb65865c0aa537b431ac",
-    "url": "/static/js/2.ebe09356.chunk.js"
+    "revision": "0427d7b2793a9e360181",
+    "url": "/static/js/2.d1f45bdb.chunk.js"
   },
   {
     "revision": "33cbcd6a9390ceaf67075c7d62c4c7e3",
-    "url": "/static/js/2.ebe09356.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d1f45bdb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a719238d697fe98a3a87",
-    "url": "/static/js/main.8bb12dca.chunk.js"
+    "revision": "51376d9588b778052a8d",
+    "url": "/static/js/main.2977b689.chunk.js"
   },
   {
     "revision": "a0311f6ad1c15d2d854b",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2c7c31062d378b9360c21c38c3e7d4dc",
     "url": "/static/media/cosmeticshop-min.2c7c3106.PNG"
+  },
+  {
+    "revision": "bad6fa053d3f5d4b5268cc134c0f22b4",
+    "url": "/static/media/goibacsi.bad6fa05.PNG"
   },
   {
     "revision": "9b683e0f5a2acaa690bca159a1619e8f",
@@ -70,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6c63a1aa951ff21d4bd258810e0a8359",
     "url": "/static/media/memory-card-min.6c63a1aa.PNG"
+  },
+  {
+    "revision": "73378638a26a80cf2be7f35b1f254390",
+    "url": "/static/media/messenger.73378638.PNG"
   },
   {
     "revision": "bd9550df4e9e05637ab2be089604358e",

@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.bbb4c3fa.chunk.css",
-    "main.js": "/static/js/main.8bb12dca.chunk.js",
-    "main.js.map": "/static/js/main.8bb12dca.chunk.js.map",
+    "main.js": "/static/js/main.2977b689.chunk.js",
+    "main.js.map": "/static/js/main.2977b689.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.12b590f4.js",
     "runtime-main.js.map": "/static/js/runtime-main.12b590f4.js.map",
     "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
-    "static/js/2.ebe09356.chunk.js": "/static/js/2.ebe09356.chunk.js",
-    "static/js/2.ebe09356.chunk.js.map": "/static/js/2.ebe09356.chunk.js.map",
+    "static/js/2.d1f45bdb.chunk.js": "/static/js/2.d1f45bdb.chunk.js",
+    "static/js/2.d1f45bdb.chunk.js.map": "/static/js/2.d1f45bdb.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.857eea7cd51721edd25bc44715d4942a.js": "/precache-manifest.857eea7cd51721edd25bc44715d4942a.js",
+    "precache-manifest.6ea8170ea3cef888e084558a3a4d33ad.js": "/precache-manifest.6ea8170ea3cef888e084558a3a4d33ad.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
     "static/css/main.bbb4c3fa.chunk.css.map": "/static/css/main.bbb4c3fa.chunk.css.map",
-    "static/js/2.ebe09356.chunk.js.LICENSE.txt": "/static/js/2.ebe09356.chunk.js.LICENSE.txt",
+    "static/js/2.d1f45bdb.chunk.js.LICENSE.txt": "/static/js/2.d1f45bdb.chunk.js.LICENSE.txt",
     "static/media/main.min.css": "/static/media/banner1.cd639cf1.svg",
     "static/media/chrismas-min.PNG": "/static/media/chrismas-min.5e005f87.PNG",
     "static/media/clothing-shop-min.PNG": "/static/media/clothing-shop-min.43cf6051.PNG",
     "static/media/cosmeticshop-min.PNG": "/static/media/cosmeticshop-min.2c7c3106.PNG",
+    "static/media/goibacsi.PNG": "/static/media/goibacsi.bad6fa05.PNG",
     "static/media/img1.jpg": "/static/media/img1.9b683e0f.jpg",
     "static/media/img2.jpg": "/static/media/img2.34ae3742.jpg",
     "static/media/img4-min.png": "/static/media/img4-min.0b77d168.png",
@@ -25,6 +26,7 @@
     "static/media/img6.jpg": "/static/media/img6.0a087c57.jpg",
     "static/media/logo.png": "/static/media/logo.86602809.png",
     "static/media/memory-card-min.PNG": "/static/media/memory-card-min.6c63a1aa.PNG",
+    "static/media/messenger.PNG": "/static/media/messenger.73378638.PNG",
     "static/media/music-player-min.PNG": "/static/media/music-player-min.bd9550df.PNG",
     "static/media/nhathuoc-min.PNG": "/static/media/nhathuoc-min.54c1714b.PNG",
     "static/media/omnifood-min.PNG": "/static/media/omnifood-min.a2fca4e3.PNG",
@@ -37,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.12b590f4.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.ebe09356.chunk.js",
+    "static/js/2.d1f45bdb.chunk.js",
     "static/css/main.bbb4c3fa.chunk.css",
-    "static/js/main.8bb12dca.chunk.js"
+    "static/js/main.2977b689.chunk.js"
   ]
 }
