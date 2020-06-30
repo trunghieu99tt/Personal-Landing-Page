@@ -13,7 +13,7 @@ export default class Services extends Component {
 				image: require("../images/img3.jpg"),
 				title: "Build web page",
 				description:
-					"Design, build a website from scartch with HTML, CSS, JS, ReactJS"
+					"Design, build a website from scratch with HTML, CSS, JS, ReactJS"
 			}
 		];
 

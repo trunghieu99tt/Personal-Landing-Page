@@ -1,8 +1,9 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import { encodeString } from "../Helper";
-import Image from '../Image';
+import Image from "../Image";
 
-const ProjectCard = props => {
+const ProjectCard = (props) => {
 	const { category, name, url, image } = props;
 	return (
 		<div className={`project-card ${encodeString(category)}`}>
@@ -15,7 +16,7 @@ const ProjectCard = props => {
 			</div>
 
 			<div className="project-card__infor">
-				<a className="project-card__name" href={url}>
+				<a className="project-card__name" href={url} target="_blank">
 					{name}
 				</a>
 			</div>

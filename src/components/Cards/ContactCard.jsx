@@ -1,13 +1,20 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 
-const ContactCard = props => {
+const ContactCard = (props) => {
 	const { title, name, description, url } = props;
 
 	return (
 		<div className="contact-card">
 			<div className="contact-card-infor">
 				<div className="text-wrapper">
-					<a className="contact-card__title" href={url}>
+					<a
+						className="contact-card__title"
+						href={
+							url || "https://facebook.com/LostBoyFromNeverLand99"
+						}
+						target="_blank"
+					>
 						{title}
 					</a>
 				</div>

@@ -103,7 +103,7 @@ export default class TimeLine extends Component {
 							</div>
 
 							<div className="col-lg-6">
-								{/* {"arrows":true,"arrow_prev_txt":"fa fa-angle-left","arrow_next_txt":"fa fa-angle-down","dots":false,"autoplay":true,"autoplay_speed":2000,"animation_speed":1000,"pause_on_hover":true,"center_mode":false,"vertical_mode":true,"center_padding":"px","display_columns":4,"scroll_columns":1,"tablet_width":778,"tablet_display_columns":3,"tablet_scroll_columns":1,"mobile_width":480,"mobile_display_columns":3,"mobile_scroll_columns":1} */}
+							
 								<Slider
 									vertical={true}
 									verticalSwiping={true}
