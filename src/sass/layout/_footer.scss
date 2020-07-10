@@ -1,53 +1,57 @@
 .footer {
-	margin-top: 7rem;
-	padding: 5rem;
-	background: $background-2;
+    margin-top: 7rem;
+    padding: 5rem;
+    background: $background-2;
 
-	@include respond(phone) {
-		padding: 3rem;
-	}
+    @include respond(phone) {
+        padding: 3rem;
+    }
 
-	&-logo {
-		width: 8rem;
-	}
+    &-logo {
+        width: 8rem;
+    }
 
-	&-top {
-		grid-gap: 3rem 5rem;
-	}
+    &-top {
+        grid-gap: 3rem 5rem;
+    }
 
-	&-link {
-		font-size: 14px;
-		font-family: "Open Sans", sans-serif;
-		color: #fff;
+    &-link {
+        font-size: 14px;
+        font-family: "Open Sans", sans-serif;
+        color: #fff;
 
-		&:hover {
-			color: $orange-1;
-		}
-		&-heading {
-			font-size: 4rem;
-		}
+        &-container {
+            grid-column: 1/-1;
+        }
 
-		&-items {
-			display: flex;
-			justify-content: space-between;
-			margin-bottom: 3rem;
-		}
-	}
+        &:hover {
+            color: $orange-1;
+        }
+        &-heading {
+            font-size: 4rem;
+        }
 
-	&-link-heading-container {
-		@include respond(phone) {
-			justify-content: flex-start !important;
-		}
-	}
+        &-items {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 3rem;
+        }
+    }
 
-	&-copy-right {
-		color: rgb(184, 179, 168);
-		font-size: 14px;
-		line-height: 14px;
-		font-family: "Open Sans", sans-serif;
-		text-align: center;
-		@include respond(phone) {
-			text-align: left;
-		}
-	}
+    &-link-heading-container {
+        @include respond(phone) {
+            justify-content: flex-start !important;
+        }
+    }
+
+    &-copy-right {
+        color: rgb(184, 179, 168);
+        font-size: 14px;
+        line-height: 14px;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        @include respond(phone) {
+            text-align: left;
+        }
+    }
 }

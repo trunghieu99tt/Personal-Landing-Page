@@ -1,15 +1,16 @@
 import React from "react";
 import Swiper from "react-id-swiper";
 import { myProjectsData } from "../data/myproject.data";
-import ProjectCard from "./Cards/ProjectCard";
-import Image from "./Image";
+// import ProjectCard from "./Cards/ProjectCard";
+// import Image from "./Image";
 
 const MyProjectsv1 = () => {
     const params = {
         effect: "coverflow",
         grabCursor: true,
         centeredSlides: true,
-        slidesPerView: "auto",
+        slidesPerView: 3,
+        loop: true,
         coverflowEffect: {
             rotate: 50,
             stretch: 0,
@@ -18,17 +19,29 @@ const MyProjectsv1 = () => {
             slideShadows: true,
         },
         spaceBetween: 50,
+        breakpoints: {
+            1024: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+            },
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                centeredSlides: false,
+            },
+        },
     };
 
-    const innerElements =
-        myProjectsData &&
-        myProjectsData.length > 0 &&
-        myProjectsData.map((item) => {
-            return <ProjectCard {...item} />;
-        });
-
     return (
-        <section className="myProject-v1">
+        <section className="myProject-v1" id="projects">
             <div className="container">
                 <div className="section-heading-container">
                     <div className="text-wrapper">
@@ -47,8 +60,8 @@ const MyProjectsv1 = () => {
                         myProjectsData.map((item) => (
                             <div className={`project-card`}>
                                 <div className="project-card__image-container">
-                                    <Image
-                                        image={item.image}
+                                    <img
+                                        src={item.image}
                                         alt={item.name}
                                         className="project-card__image lazyload"
                                     />
