@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8423ecdbdb785fa8a90382f442ec55d0",
+    "revision": "742bcfd777e5acbe2af76e6019b76623",
     "url": "/index.html"
   },
   {
-    "revision": "139aa12fd92e6c0ad896",
+    "revision": "c2bbf16de091ebb97ae9",
     "url": "/static/css/2.7038f4e8.chunk.css"
   },
   {
-    "revision": "e5aa101bc8ef161f95f2",
-    "url": "/static/css/main.07b7aad4.chunk.css"
+    "revision": "bfd0ef4378c24c88215c",
+    "url": "/static/css/main.a8ecfd37.chunk.css"
   },
   {
-    "revision": "139aa12fd92e6c0ad896",
-    "url": "/static/js/2.b17d3658.chunk.js"
+    "revision": "c2bbf16de091ebb97ae9",
+    "url": "/static/js/2.4bbd1d9b.chunk.js"
   },
   {
     "revision": "33cbcd6a9390ceaf67075c7d62c4c7e3",
-    "url": "/static/js/2.b17d3658.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.4bbd1d9b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e5aa101bc8ef161f95f2",
-    "url": "/static/js/main.2b94c3de.chunk.js"
+    "revision": "bfd0ef4378c24c88215c",
+    "url": "/static/js/main.6e8e8287.chunk.js"
   },
   {
     "revision": "a0311f6ad1c15d2d854b",
@@ -64,6 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/img6.0a087c57.jpg"
   },
   {
+    "revision": "5f4d38d45a7e4fb1ad32864c0961a78a",
+    "url": "/static/media/lazada-pet.5f4d38d4.png"
+  },
+  {
     "revision": "86602809f305e0d26b2ca5318437b1db",
     "url": "/static/media/logo.86602809.png"
   },
@@ -86,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0fb36d175c618616d74bac8740f25c4f",
     "url": "/static/media/portfolio-page.0fb36d17.png"
+  },
+  {
+    "revision": "427f803f3e21822f1d268c98c62f418e",
+    "url": "/static/media/tigren-logo.427f803f.png"
   },
   {
     "revision": "c7c10ad1b010b3160a38db973f20a90e",
