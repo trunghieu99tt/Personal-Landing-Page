@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Personal-Landing-Page/static/css/main.2f7818f0.chunk.css",
-    "main.js": "/Personal-Landing-Page/static/js/main.02dea821.chunk.js",
-    "main.js.map": "/Personal-Landing-Page/static/js/main.02dea821.chunk.js.map",
-    "runtime-main.js": "/Personal-Landing-Page/static/js/runtime-main.9cd288dc.js",
-    "runtime-main.js.map": "/Personal-Landing-Page/static/js/runtime-main.9cd288dc.js.map",
-    "static/css/2.7038f4e8.chunk.css": "/Personal-Landing-Page/static/css/2.7038f4e8.chunk.css",
-    "static/js/2.4bbd1d9b.chunk.js": "/Personal-Landing-Page/static/js/2.4bbd1d9b.chunk.js",
-    "static/js/2.4bbd1d9b.chunk.js.map": "/Personal-Landing-Page/static/js/2.4bbd1d9b.chunk.js.map",
+    "main.css": "/Personal-Landing-Page/static/css/main.223e9826.chunk.css",
+    "main.js": "/Personal-Landing-Page/static/js/main.c6ad0d44.chunk.js",
+    "main.js.map": "/Personal-Landing-Page/static/js/main.c6ad0d44.chunk.js.map",
+    "runtime-main.js": "/Personal-Landing-Page/static/js/runtime-main.1b85a9fb.js",
+    "runtime-main.js.map": "/Personal-Landing-Page/static/js/runtime-main.1b85a9fb.js.map",
+    "static/css/2.8b84a5ad.chunk.css": "/Personal-Landing-Page/static/css/2.8b84a5ad.chunk.css",
+    "static/js/2.dece4cad.chunk.js": "/Personal-Landing-Page/static/js/2.dece4cad.chunk.js",
+    "static/js/2.dece4cad.chunk.js.map": "/Personal-Landing-Page/static/js/2.dece4cad.chunk.js.map",
     "index.html": "/Personal-Landing-Page/index.html",
-    "precache-manifest.4d7c5ff11d9f9b81ac2a1ee86abb54c8.js": "/Personal-Landing-Page/precache-manifest.4d7c5ff11d9f9b81ac2a1ee86abb54c8.js",
+    "precache-manifest.f11ba555f12c43de8851fc31ea02551d.js": "/Personal-Landing-Page/precache-manifest.f11ba555f12c43de8851fc31ea02551d.js",
     "service-worker.js": "/Personal-Landing-Page/service-worker.js",
-    "static/css/2.7038f4e8.chunk.css.map": "/Personal-Landing-Page/static/css/2.7038f4e8.chunk.css.map",
-    "static/css/main.2f7818f0.chunk.css.map": "/Personal-Landing-Page/static/css/main.2f7818f0.chunk.css.map",
-    "static/js/2.4bbd1d9b.chunk.js.LICENSE.txt": "/Personal-Landing-Page/static/js/2.4bbd1d9b.chunk.js.LICENSE.txt",
+    "static/css/2.8b84a5ad.chunk.css.map": "/Personal-Landing-Page/static/css/2.8b84a5ad.chunk.css.map",
+    "static/css/main.223e9826.chunk.css.map": "/Personal-Landing-Page/static/css/main.223e9826.chunk.css.map",
+    "static/js/2.dece4cad.chunk.js.LICENSE.txt": "/Personal-Landing-Page/static/js/2.dece4cad.chunk.js.LICENSE.txt",
     "static/media/main.min.css": "/Personal-Landing-Page/static/media/banner1.cd639cf1.svg",
     "static/media/clothing-shop-min.PNG": "/Personal-Landing-Page/static/media/clothing-shop-min.43cf6051.PNG",
     "static/media/cosmeticshop-min.PNG": "/Personal-Landing-Page/static/media/cosmeticshop-min.2c7c3106.PNG",
@@ -36,10 +36,10 @@
     "static/media/weather-app.png": "/Personal-Landing-Page/static/media/weather-app.413be083.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9cd288dc.js",
-    "static/css/2.7038f4e8.chunk.css",
-    "static/js/2.4bbd1d9b.chunk.js",
-    "static/css/main.2f7818f0.chunk.css",
-    "static/js/main.02dea821.chunk.js"
+    "static/js/runtime-main.1b85a9fb.js",
+    "static/css/2.8b84a5ad.chunk.css",
+    "static/js/2.dece4cad.chunk.js",
+    "static/css/main.223e9826.chunk.css",
+    "static/js/main.c6ad0d44.chunk.js"
   ]
 }
