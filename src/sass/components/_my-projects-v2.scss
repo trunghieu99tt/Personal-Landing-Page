@@ -1,0 +1,47 @@
+.myProjectv2 {
+    font-family: "Cinzel Decorative", cursive;
+}
+
+.myProjectv2-item {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: -1px;
+    position: relative;
+    opacity: 0.3;
+    cursor: pointer;
+    padding: 5rem 0;
+}
+
+.myProjectv2-item:hover {
+    opacity: 1;
+}
+
+.myProjectv2-item:hover .myProjectv2-item__title {
+    transform: translateX(50px);
+}
+
+.myProjectv2-item__title {
+    font-weight: 300;
+    word-wrap: normal;
+    letter-spacing: -0.02em;
+    font-size: 5rem;
+    text-transform: uppercase;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+    flex-basis: 90%;
+    transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.myProjectv2-item__image {
+    pointer-events: none;
+    position: absolute;
+    z-index: 1;
+    width: 50rem;
+    height: 50rem;
+    display: none;
+    object-fit: cover;
+}

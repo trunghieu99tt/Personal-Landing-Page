@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-globals */
 import "bootstrap/dist/css/bootstrap.min.css";
 import "swiper/css/swiper.css";
 import React, { Component } from "react";
@@ -10,30 +11,45 @@ import "./css/main.min.css";
 import Footer from "./layout/Footer";
 import Navigation from "./layout/Navigation";
 import MyProjectsv1 from "./components/MyProjectsv1";
+import ChangeCursor from "./components/ChangeCursor/ChangeCursor";
+import MyProjectv2 from "./components/MyProjectv2";
+import { NavigationSmall } from "./layout/NavigationSmall/NavigationSmall";
 
 export default class App extends Component {
-	state = {
-		myProjectsData: [],
-	};
+    state = {
+        myProjectsData: [],
+        isDesktop: true,
+    };
 
-	componentDidMount() {}
+    componentDidMount() {
+        const width = screen.width;
+        if (width < 1200) this.setState({ isDesktop: false });
 
-	render() {
-		const { myProjectsData } = this.state;
+        window.addEventListener("resize", () => {
+            const width = screen.width;
+            if (width < 1200) this.setState({ isDesktop: false });
+        });
+    }
 
-		return (
-			<React.Fragment>
-				{/* <CustomCursor /> */}
-				<Navigation />
-				<Banner />
-				<Introduction />
-				<TimeLine />
-				{/* <MyProjects myProjectsData={myProjectsData} /> */}
-				{/* <MyProjectsv1 /> */}
-				<MyProjectsv1 />
-				<Contact />
-				<Footer />
-			</React.Fragment>
-		);
-	}
+    render() {
+        const { isDesktop } = this.state;
+
+        console.log("isDesktop", isDesktop);
+
+        return (
+            <React.Fragment>
+                <ChangeCursor />
+                {(isDesktop && <Navigation />) || <NavigationSmall />}
+                <Banner />
+                <Introduction />
+                <TimeLine />
+                {/* <MyProjects myProjectsData={myProjectsData} /> */}
+                <MyProjectsv1 />
+                {/* <MyProjectsv1 /> */}
+                {/* <MyProjectv2 /> */}
+                <Contact />
+                <Footer />
+            </React.Fragment>
+        );
+    }
 }

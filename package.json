@@ -1,50 +1,52 @@
 {
-	"name": "personal-website",
-	"version": "0.1.0",
-	"private": true,
-	"dependencies": {
-		"@testing-library/jest-dom": "^4.2.4",
-		"@testing-library/react": "^9.5.0",
-		"@testing-library/user-event": "^7.2.1",
-		"axios": "^0.19.2",
-		"bootstrap": "^4.4.1",
-		"gh-pages": "^2.2.0",
-		"imagesloaded": "^4.1.4",
-		"isotope-layout": "^3.0.6",
-		"jquery": "^3.4.1",
-		"parallax-js": "^3.1.0",
-		"react": "^16.13.0",
-		"react-dom": "^16.13.0",
-		"react-id-swiper": "^4.0.0",
-		"react-parallax": "^3.0.3",
-		"react-particles-js": "^2.7.1",
-		"react-scripts": "3.4.0",
-		"react-slick": "^0.25.2",
-		"react-waypoint": "^9.0.2",
-		"swiper": "^5.4.5"
-	},
-	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build"
-	},
-	"eslintConfig": {
-		"extends": "react-app"
-	},
-	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
-	},
-	"homepage": "https://lostboyfromneverland.me"
+    "name": "personal-website",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.5.0",
+        "@testing-library/user-event": "^7.2.1",
+        "axios": "^0.19.2",
+        "bootstrap": "^4.4.1",
+        "framer-motion": "^2.3.0",
+        "gh-pages": "^2.2.0",
+        "gsap": "^3.4.2",
+        "imagesloaded": "^4.1.4",
+        "isotope-layout": "^3.0.6",
+        "jquery": "^3.4.1",
+        "parallax-js": "^3.1.0",
+        "react": "^16.13.0",
+        "react-dom": "^16.13.0",
+        "react-id-swiper": "^4.0.0",
+        "react-parallax": "^3.0.3",
+        "react-particles-js": "^2.7.1",
+        "react-scripts": "3.4.0",
+        "react-slick": "^0.25.2",
+        "react-waypoint": "^9.0.2",
+        "swiper": "^5.4.5"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "homepage": "https://trunghieu99tt.github.io/Personal-Landing-Page/"
 }
