@@ -8,7 +8,7 @@ const ChangeCursor = () => {
     useEffect(() => {
         const cursor = document.querySelector(".cursor");
         const follower = document.querySelector(".cursor-follower");
-
+        const screen = document.body.getBoundingClientRect();
         var posX = 0,
             posY = 0,
             mouseX = 0,
@@ -39,6 +39,7 @@ const ChangeCursor = () => {
         document.addEventListener("mousemove", (e) => {
             mouseX = e.pageX;
             mouseY = e.pageY;
+            mouseX = Math.min(mouseX, screen.width - 35);
         });
     }, []);
 

@@ -1,28 +1,44 @@
 .contact-card {
-	padding: 3rem;
-	border-radius: 5px;
-	border: 1px solid $orange-2;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background-color: $background-2;
+    padding: 3rem;
+    border-radius: 5px;
+    border: 1px solid $orange-2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $background-2;
+    position: relative;
 
-	&:hover {
-		background: rgba(180, 104, 0, 0.75);
-	}
+    &-infor {
+        position: relative;
+        z-index: 1;
+    }
 
-	&__title {
-		font-family: playfair display, Sans-serif;
-		font-size: 2.4rem;
-		font-weight: 700;
-		color: #fff;
+    &:hover {
+        background: rgba(180, 104, 0, 0.75);
+    }
 
-		&:hover {
-			color: #fff;
-		}
-	}
+    &__title {
+        font-family: playfair display, Sans-serif;
+        font-size: 2.4rem;
+        font-weight: 700;
+        color: #fff;
 
-	i {
-		font-size: 4rem;
-	}
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    i {
+        font-size: 4rem;
+    }
+}
+
+.contactCard-outline {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    border: 5px solid $orange-2;
+    border-radius: 10px;
 }

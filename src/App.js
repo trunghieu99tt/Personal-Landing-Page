@@ -14,6 +14,7 @@ import MyProjectsv1 from "./components/MyProjectsv1";
 import ChangeCursor from "./components/ChangeCursor/ChangeCursor";
 import MyProjectv2 from "./components/MyProjectv2";
 import { NavigationSmall } from "./layout/NavigationSmall/NavigationSmall";
+import ScrollBar from "./components/ScrollBar/ScrollBar";
 
 export default class App extends Component {
     state = {
@@ -34,10 +35,9 @@ export default class App extends Component {
     render() {
         const { isDesktop } = this.state;
 
-        console.log("isDesktop", isDesktop);
-
         return (
             <React.Fragment>
+                <ScrollBar />
                 <ChangeCursor />
                 {(isDesktop && <Navigation />) || <NavigationSmall />}
                 <Banner />
