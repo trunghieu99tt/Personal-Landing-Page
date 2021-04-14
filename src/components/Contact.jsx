@@ -34,6 +34,11 @@ const Contact = () => {
             name: "codepen",
             url: "https://codepen.io/lostBoyFromNeverland",
         },
+        {
+            title: "Linkedin",
+            name: "linkedin-in",
+            url: "https://www.linkedin.com/in/rikikudo/",
+        },
     ];
 
     return (

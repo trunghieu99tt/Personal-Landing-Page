@@ -31,36 +31,20 @@ export default class TimeLine extends Component {
             {
                 image: require("../images/tigren-logo.png"),
                 companyName: "Tigren Solutions",
-                timeStart: "2020",
-                timeEnd: "",
+                timeStart: "06/2020",
+                timeEnd: "03/2021",
                 title: "Front-end Developer",
                 description:
-                    "Part time Front-end Developer since 2020, in charge of building UI/UX with ReactJS",
+                    "Front-end Developer since 2020, in charge of building UI/UX with ReactJS",
             },
             {
                 image: require("../images/nbm.jpg"),
                 companyName: "NBM Media",
-                timeStart: "2019",
-                timeEnd: "2020",
+                timeStart: "12/2019",
+                timeEnd: "06/2020",
                 title: "Front-end Developer",
                 description:
-                    "Part time Front-end Developer since 2020, in charge of building UI/UX with ReactJS",
-            },
-            {
-                image: require("../images/img6.jpg"),
-                companyName: "PTIT",
-                timeStart: "2017",
-                timeEnd: "",
-                title: "Student",
-                description: "A student of PTIT since 2017",
-            },
-            {
-                companyName: "CodeWar",
-                timeStart: "2019",
-                timeEnd: "2019",
-                title: "Participant",
-                description:
-                    "Participated in CodeWar 2019 as a team member of Toang Team, ranked #2 in 2 first elimination rounds",
+                    "Front-end Developer since 2019, in charge of building UI/UX with ReactJS",
             },
             {
                 companyName: "ACM ICPC PTIT",
@@ -70,14 +54,20 @@ export default class TimeLine extends Component {
                 description:
                     "Participated in ACM/ICPC PTIT 2018 as a team member of AHP Team, ranked #7 in final round and got 3rd place prize and potential prize",
             },
-
             {
                 companyName: "ACM ICPC",
-                timeStart: "2019",
-                timeEnd: "2019",
-                title: "Member of PTIT's ACM Team",
+                timeStart: "2020",
+                timeEnd: "2020",
+                title: "Member of PTIT ACM Team",
                 description:
-                    "Participated in ACM/ICPC 2019 as a team member of M4rs Team",
+                    "Participated in ACM/ICPC 2019 as a team member of PTIT.D.Eagles, got the third prize in Vietnam National Programing Contest",
+            },
+            {
+                companyName: "VOI",
+                timeStart: "2020",
+                timeEnd: "2020",
+                title: "Member of PTIT Olympic Team",
+                description: "Got the third prize",
             },
         ];
 

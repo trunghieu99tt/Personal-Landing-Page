@@ -7,12 +7,21 @@ export const myProjectsData = [
         image: require("../images/clothing-shop-min.PNG"),
     },
     {
-        category: "Landing Page",
-        dataFilter: "landing-page",
-        name: "Omnifood",
-        url: "https://trunghieu99tt.github.io/OmniFood/",
-        image: require("../images/omnifood-min.PNG"),
+        category: "Real Project",
+        dataFilter: "real-project",
+        name: "Tigren PWA",
+        url: "https://www.tigrenpwa.com/",
+        image: require("../images/tigrenpwa.png"),
     },
+
+    {
+        category: "Real Project",
+        dataFilter: "real-project",
+        name: "Akira Beauty",
+        url: "https://akirabeauty.com/",
+        image: require("../images/akirabeauty.png"),
+    },
+
     {
         category: "Landing Page",
         dataFilter: "landing-page",
@@ -34,20 +43,6 @@ export const myProjectsData = [
         name: "Video Blog Template",
         url: "https://trunghieu99tt.github.io/Video-Blog/",
         image: require("../images/videoblog-min.PNG"),
-    },
-    {
-        category: "Pet Project",
-        dataFilter: "pet-project",
-        name: "Music Player",
-        url: "https://trunghieu99tt.github.io/Music-Player/",
-        image: require("../images/music-player-min.PNG"),
-    },
-    {
-        category: "Pet Project",
-        dataFilter: "pet-project",
-        name: "Memory Cards",
-        url: "https://trunghieu99tt.github.io/Memory-Card/",
-        image: require("../images/memory-card-min.PNG"),
     },
     {
         category: "Pet Project",
