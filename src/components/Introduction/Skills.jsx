@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SkillBar from "./SkillBar";
+import SkillBar from "../Skillbar";
 
 export default class Skills extends Component {
     render() {

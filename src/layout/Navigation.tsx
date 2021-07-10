@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import { menuData } from "./navigation.data";
 
 const Navigation = () => {
-    const menu = menuData.map((item) => {
+    const menu = menuData.map((item: any, idx: number) => {
         const { name, url } = item;
         return (
-            <li className="menu-item">
+            <li className="menu-item" key={`menu-item-link-${idx}`}>
                 <a href={url} className="menu-item__link">
                     <p>{name}</p>
                 </a>
