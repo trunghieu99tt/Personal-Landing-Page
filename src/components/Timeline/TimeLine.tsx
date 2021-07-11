@@ -24,8 +24,6 @@ const TimeLine = () => {
         getTimeline();
     }, [getTimeline]);
 
-    useEffect(() => {}, []);
-
     return (
         <section className="timeline" id="timeline">
             <div className="container">

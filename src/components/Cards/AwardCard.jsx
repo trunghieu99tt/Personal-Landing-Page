@@ -4,13 +4,15 @@ const AwardCard = (props) => {
     const { title, url, image, description } = props;
     return (
         <div className="award-card">
-            <div className="award-card__image-container">
-                <img
-                    src={image}
-                    alt={title}
-                    className="award-card__image lazyload"
-                />
-            </div>
+            {image && (
+                <div className="award-card__image-container">
+                    <img
+                        src={image}
+                        alt={title}
+                        className="award-card__image lazyload"
+                    />
+                </div>
+            )}
 
             <div className="award-card__content">
                 <div className="text-wrapper">

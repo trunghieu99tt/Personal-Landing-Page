@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import cn from "classnames";
-import { AnimateSharedLayout } from "framer-motion";
 
 // components
 import AboutMe from "./AboutMe";
@@ -21,6 +20,12 @@ const Introduction = () => {
             name: "Awards",
         },
     ];
+
+    const activeComponent = [
+        <AboutMe />,
+        <Skills key={Math.random()} />,
+        <Awards />,
+    ][activeIdx];
 
     return (
         <section className="introduction" id="about">
@@ -49,15 +54,7 @@ const Introduction = () => {
                         })}
                 </div>
 
-                <div className="introduction__content">
-                    <AnimateSharedLayout>
-                        {[<AboutMe />, <Skills />, <Awards />].map(
-                            (e: any, idx: number) => {
-                                return <div>{e}</div>;
-                            }
-                        )}
-                    </AnimateSharedLayout>
-                </div>
+                <div className="introduction__content">{activeComponent}</div>
             </div>
         </section>
     );
