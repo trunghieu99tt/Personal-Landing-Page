@@ -33,8 +33,7 @@ const variants = {
         transition: { staggerChildren: 0.05, staggerDirection: -1 },
     },
 };
-
-export const NavigationSmall = () => {
+const NavigationSmall = () => {
     const [isOpen, toggleOpen] = useCycle(false, true);
     const containerRef = useRef(null);
     const { height } = useDimensions(containerRef);
@@ -73,3 +72,5 @@ export const NavigationSmall = () => {
         </React.Fragment>
     );
 };
+
+export default NavigationSmall;
