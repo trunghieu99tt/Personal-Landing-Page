@@ -16,7 +16,7 @@
         "bootstrap": "^4.4.1",
         "framer-motion": "^2.3.0",
         "gh-pages": "^2.2.0",
-        "gsap": "^3.4.2",
+        "gsap": "^3.6.0",
         "imagesloaded": "^4.1.4",
         "isotope-layout": "^3.0.6",
         "jquery": "^3.4.1",
