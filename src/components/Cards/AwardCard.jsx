@@ -1,7 +1,7 @@
 import React from "react";
 
 const AwardCard = (props) => {
-    const { title, url, image, description } = props;
+    const { title, url, image } = props;
     return (
         <div className="award-card">
             {image && (
