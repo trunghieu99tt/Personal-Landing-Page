@@ -18,7 +18,7 @@ const Contact = () => {
     const getContactInfo = useCallback(async () => {
         const response = await fetchData();
         setData(response);
-    }, []);
+    }, [fetchData]);
 
     useEffect(() => {
         getContactInfo();

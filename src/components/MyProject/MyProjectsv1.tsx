@@ -51,7 +51,6 @@ const MyProjectsv1 = () => {
 
     useEffect(() => {
         getProjects();
-        // postData(myProjectsData);
     }, [getProjects, postData]);
 
     return (
