@@ -66,3 +66,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Or you can pull image from dockerhub and run locally without cloning code or run
+docker run -it -p 3000:3000/tcp rikikudo/rikikudo-intro:lastest
+This script will pull my lastest image and run in port 3000. (Open localhost:3000)
